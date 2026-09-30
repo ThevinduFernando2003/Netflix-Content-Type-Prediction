@@ -1,0 +1,9 @@
+# Demo script
+
+1. **Problem.** We want to know whether a Netflix catalogue row is a Movie or a TV Show from its metadata, not from a column that already says so.
+2. **Data defects.** Open `reports/data_profile.md`. The Excel file has 8,790 rows, not 8,791, and it has no cast and no synopsis. A few titles were stored as numbers and dates (`3%`, `23:59`, `9-Feb`). Empty credits were filled with the token `Not Given`.
+3. **The leak.** Open `reports/leakage_audit.md` and the UI tab "The leakage story". `duration_unit` has ROC-AUC 1.00: every movie is minutes, every TV show is seasons. TV-format genre names are the same trick. `has_director` alone is 95% accurate because series credits were left blank. Those features are banned. Rating is only a partial signal (AUC 0.64) and stays.
+4. **Honest model.** Show the comparison table in `reports/evaluation.md`. The leaky model is perfect and worthless. The honest model is the one the API serves. The no-TV-vocabulary ROC-AUC sits within a few thousandths of the honest ROC-AUC, so the words `series` and `movie` are not carrying the score. Rating and country are. Say out loud that there is no synopsis in this extract.
+5. **Live prediction.** In the Predict tab, press "Obvious movie", then "Obvious series", then "Ambiguous case". Point at the probability, the confidence badge, and the contribution chart. Mention that the probability is calibrated and the threshold is not 0.5.
+6. **Error analysis.** Open the error table in `reports/evaluation.md`. The confident mistakes are mostly series whose titles do not say "series", after we refused the genre name and the missing-director shortcut.
+7. **Architecture.** Raw CSV, clean, one stratified split, pipelines fit inside the folds, calibrator, FastAPI, Streamlit over HTTP. The UI does not import the model.
