@@ -1,0 +1,21 @@
+services:
+  api:
+    build: .
+    environment:
+      SERVICE: api
+      PORT: "8000"
+      CORS_ORIGINS: http://localhost:8501
+      RATE_LIMIT: 60/minute
+    ports:
+      - "8000:8000"
+  ui:
+    build: .
+    command: streamlit run app/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    environment:
+      SERVICE: ui
+      PORT: "8501"
+      API_BASE_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api

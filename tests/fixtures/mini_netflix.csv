@@ -1,0 +1,82 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+m1,Movie,Shifted Runtime,Ava Patel,"Ava Stone, Liam Ortiz",United States,"September 25, 2021",2019,74 min,,Dramas,A heist pilot flies one last cargo over the Andes.
+m2,Movie,No Director Listed,,Mia Chen,United States,9/1/2020,2018,PG-13,102 min,Comedies,A heist goes wrong in a quiet coastal town.
+m3,Movie,Empty Cast List,Noah Kim,,United States,9/2/2020,2017,PG,95 min,Children & Family Movies,A heist of lost toys brings a family back together.
+m4,Movie,No Country Listed,Noah Kim,Mia Chen,,9/3/2020,2016,R,110 min,Thrillers,A heist unravels inside an unnamed capital.
+m5,Movie,Missing Rating,Noah Kim,Mia Chen,United States,9/4/2020,2015,,88 min,Dramas,A heist leaves one witness and no official rating.
+m6,Movie,Standard Feature,Noah Kim,"Mia Chen, Ava Stone",United States,9/5/2020,2014,PG-13,90 min,Action & Adventure,A heist crew races a storm back to the harbor.
+m7,Movie,Two Countries,Noah Kim,Mia Chen,"United States, Canada",9/6/2020,2013,PG-13,101 min,"Dramas, International Movies",A heist crosses the border between two cities.
+m8,Movie,Five Genres,Noah Kim,"Mia Chen, Ava Stone, Liam Ortiz",United States,9/7/2020,2012,PG-13,120 min,"Dramas, Comedies, Independent Movies, Thrillers, Sports Movies","A heist, a joke, a match, and a chase share one night."
+m9,Movie,Blank Synopsis,Noah Kim,Mia Chen,United States,9/8/2020,2011,PG,80 min,Documentaries, 
+m10,Movie,Amélie,Jean-Pierre Jeunet,Audrey Tautou,France,9/9/2020,2001,R,122 min,"Comedies, International Movies, Romantic Movies",A heist of small kindnesses changes a Paris neighborhood.
+m11,Movie,"Hello, Goodbye",Noah Kim,Mia Chen,United States,9/10/2020,2010,PG-13,99 min,"Dramas, Romantic Movies",A heist of letters reunites two people who left the harbor.
+m12,Movie,The Heist,Noah Kim,"Mia Chen, Ava Stone",United States,9/11/2020,2009,PG-13,108 min,"Action & Adventure, Comedies",A heist film about one night in a museum.
+t1,TV Show,The Heist,,"Mia Chen, Ava Stone, Liam Ortiz, Noah Blake",United Kingdom,9/12/2020,2020,TV-MA,2 Seasons,"Crime TV Shows, International TV Shows, TV Dramas",In this harbor series a crew returns every season for another job.
+t2,TV Show,Harbor Nights,Not Given,Liam Ortiz,United Kingdom,9/13/2020,2019,TV-14,1 Season,"TV Dramas, TV Mysteries",A harbor detective works the docks across one season.
+m13,Movie,Harbor Heist 13,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2003,PG-13,93 min,"Dramas, Comedies",A heist story number 13 about a pilot and a harbor town.
+m14,Movie,Harbor Heist 14,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2004,PG-13,94 min,"Dramas, Comedies",A heist story number 14 about a pilot and a harbor town.
+m15,Movie,Harbor Heist 15,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2005,PG-13,95 min,"Dramas, Comedies",A heist story number 15 about a pilot and a harbor town.
+m16,Movie,Harbor Heist 16,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2006,PG-13,96 min,"Dramas, Comedies",A heist story number 16 about a pilot and a harbor town.
+m17,Movie,Harbor Heist 17,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2007,PG-13,97 min,"Dramas, Comedies",A heist story number 17 about a pilot and a harbor town.
+m18,Movie,Harbor Heist 18,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2008,PG-13,98 min,"Dramas, Comedies",A heist story number 18 about a pilot and a harbor town.
+m19,Movie,Harbor Heist 19,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2009,PG-13,99 min,"Dramas, Comedies",A heist story number 19 about a pilot and a harbor town.
+m20,Movie,Harbor Heist 20,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2010,PG-13,100 min,"Dramas, Comedies",A heist story number 20 about a pilot and a harbor town.
+m21,Movie,Harbor Heist 21,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2011,PG-13,101 min,"Dramas, Comedies",A heist story number 21 about a pilot and a harbor town.
+m22,Movie,Harbor Heist 22,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2012,PG-13,102 min,"Dramas, Comedies",A heist story number 22 about a pilot and a harbor town.
+m23,Movie,Harbor Heist 23,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2013,PG-13,103 min,"Dramas, Comedies",A heist story number 23 about a pilot and a harbor town.
+m24,Movie,Harbor Heist 24,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2014,PG-13,104 min,"Dramas, Comedies",A heist story number 24 about a pilot and a harbor town.
+m25,Movie,Harbor Heist 25,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1990,PG-13,105 min,"Dramas, Comedies",A heist story number 25 about a pilot and a harbor town.
+m26,Movie,Harbor Heist 26,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1991,PG-13,106 min,"Dramas, Comedies",A heist story number 26 about a pilot and a harbor town.
+m27,Movie,Harbor Heist 27,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1992,PG-13,107 min,"Dramas, Comedies",A heist story number 27 about a pilot and a harbor town.
+m28,Movie,Harbor Heist 28,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1993,PG-13,108 min,"Dramas, Comedies",A heist story number 28 about a pilot and a harbor town.
+m29,Movie,Harbor Heist 29,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1994,PG-13,109 min,"Dramas, Comedies",A heist story number 29 about a pilot and a harbor town.
+m30,Movie,Harbor Heist 30,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1995,PG-13,110 min,"Dramas, Comedies",A heist story number 30 about a pilot and a harbor town.
+m31,Movie,Harbor Heist 31,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1996,PG-13,111 min,"Dramas, Comedies",A heist story number 31 about a pilot and a harbor town.
+m32,Movie,Harbor Heist 32,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1997,PG-13,112 min,"Dramas, Comedies",A heist story number 32 about a pilot and a harbor town.
+m33,Movie,Harbor Heist 33,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1998,PG-13,113 min,"Dramas, Comedies",A heist story number 33 about a pilot and a harbor town.
+m34,Movie,Harbor Heist 34,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1999,PG-13,114 min,"Dramas, Comedies",A heist story number 34 about a pilot and a harbor town.
+m35,Movie,Harbor Heist 35,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2000,PG-13,115 min,"Dramas, Comedies",A heist story number 35 about a pilot and a harbor town.
+m36,Movie,Harbor Heist 36,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2001,PG-13,116 min,"Dramas, Comedies",A heist story number 36 about a pilot and a harbor town.
+m37,Movie,Harbor Heist 37,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2002,PG-13,117 min,"Dramas, Comedies",A heist story number 37 about a pilot and a harbor town.
+m38,Movie,Harbor Heist 38,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2003,PG-13,118 min,"Dramas, Comedies",A heist story number 38 about a pilot and a harbor town.
+m39,Movie,Harbor Heist 39,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2004,PG-13,119 min,"Dramas, Comedies",A heist story number 39 about a pilot and a harbor town.
+m40,Movie,Harbor Heist 40,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2005,PG-13,120 min,"Dramas, Comedies",A heist story number 40 about a pilot and a harbor town.
+m41,Movie,Harbor Heist 41,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2006,PG-13,121 min,"Dramas, Comedies",A heist story number 41 about a pilot and a harbor town.
+m42,Movie,Harbor Heist 42,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2007,PG-13,122 min,"Dramas, Comedies",A heist story number 42 about a pilot and a harbor town.
+m43,Movie,Harbor Heist 43,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2008,PG-13,123 min,"Dramas, Comedies",A heist story number 43 about a pilot and a harbor town.
+m44,Movie,Harbor Heist 44,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2009,PG-13,124 min,"Dramas, Comedies",A heist story number 44 about a pilot and a harbor town.
+m45,Movie,Harbor Heist 45,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2010,PG-13,125 min,"Dramas, Comedies",A heist story number 45 about a pilot and a harbor town.
+m46,Movie,Harbor Heist 46,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2011,PG-13,126 min,"Dramas, Comedies",A heist story number 46 about a pilot and a harbor town.
+m47,Movie,Harbor Heist 47,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2012,PG-13,127 min,"Dramas, Comedies",A heist story number 47 about a pilot and a harbor town.
+m48,Movie,Harbor Heist 48,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2013,PG-13,128 min,"Dramas, Comedies",A heist story number 48 about a pilot and a harbor town.
+m49,Movie,Harbor Heist 49,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,2014,PG-13,129 min,"Dramas, Comedies",A heist story number 49 about a pilot and a harbor town.
+m50,Movie,Harbor Heist 50,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1990,PG-13,130 min,"Dramas, Comedies",A heist story number 50 about a pilot and a harbor town.
+m51,Movie,Harbor Heist 51,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1991,PG-13,131 min,"Dramas, Comedies",A heist story number 51 about a pilot and a harbor town.
+m52,Movie,Harbor Heist 52,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1992,PG-13,132 min,"Dramas, Comedies",A heist story number 52 about a pilot and a harbor town.
+m53,Movie,Harbor Heist 53,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1993,PG-13,133 min,"Dramas, Comedies",A heist story number 53 about a pilot and a harbor town.
+m54,Movie,Harbor Heist 54,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1994,PG-13,134 min,"Dramas, Comedies",A heist story number 54 about a pilot and a harbor town.
+m55,Movie,Harbor Heist 55,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1995,PG-13,135 min,"Dramas, Comedies",A heist story number 55 about a pilot and a harbor town.
+m56,Movie,Harbor Heist 56,Noah Kim,"Mia Chen, Ava Stone",United States,1/5/2021,1996,PG-13,136 min,"Dramas, Comedies",A heist story number 56 about a pilot and a harbor town.
+t3,TV Show,Harbor Lane 3,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2013,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 3 follows the same street each season.
+t4,TV Show,Harbor Lane 4,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2014,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 4 follows the same street each season.
+t5,TV Show,Harbor Lane 5,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2015,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 5 follows the same street each season.
+t6,TV Show,Harbor Lane 6,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2016,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 6 follows the same street each season.
+t7,TV Show,Harbor Lane 7,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2017,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 7 follows the same street each season.
+t8,TV Show,Harbor Lane 8,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2018,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 8 follows the same street each season.
+t9,TV Show,Harbor Lane 9,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2019,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 9 follows the same street each season.
+t10,TV Show,Harbor Lane 10,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2010,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 10 follows the same street each season.
+t11,TV Show,Harbor Lane 11,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2011,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 11 follows the same street each season.
+t12,TV Show,Harbor Lane 12,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2012,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 12 follows the same street each season.
+t13,TV Show,Harbor Lane 13,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2013,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 13 follows the same street each season.
+t14,TV Show,Harbor Lane 14,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2014,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 14 follows the same street each season.
+t15,TV Show,Harbor Lane 15,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2015,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 15 follows the same street each season.
+t16,TV Show,Harbor Lane 16,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2016,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 16 follows the same street each season.
+t17,TV Show,Harbor Lane 17,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2017,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 17 follows the same street each season.
+t18,TV Show,Harbor Lane 18,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2018,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 18 follows the same street each season.
+t19,TV Show,Harbor Lane 19,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2019,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 19 follows the same street each season.
+t20,TV Show,Harbor Lane 20,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2010,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 20 follows the same street each season.
+t21,TV Show,Harbor Lane 21,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2011,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 21 follows the same street each season.
+t22,TV Show,Harbor Lane 22,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2012,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 22 follows the same street each season.
+t23,TV Show,Harbor Lane 23,,"Liam Ortiz, Mia Chen, Ava Stone",United States,"March 2, 2021",2013,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 23 follows the same street each season.
+t24,TV Show,Harbor Lane 24,,"Liam Ortiz, Mia Chen, Ava Stone",United Kingdom,"March 2, 2021",2014,TV-MA,1 Season,"TV Dramas, International TV Shows",A harbor series number 24 follows the same street each season.
+m1,Movie,Duplicate Should Drop,Ava Patel,"Ava Stone, Liam Ortiz",United States,"September 25, 2021",2019,74 min,,Dramas,A heist pilot flies one last cargo over the Andes.

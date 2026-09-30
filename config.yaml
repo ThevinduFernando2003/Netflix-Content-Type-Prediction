@@ -1,0 +1,89 @@
+seed: 42
+
+paths:
+  raw_csv: data/raw/netflix_titles.csv
+  model_dir: models
+  reports_dir: reports
+  figures_dir: reports/figures
+
+split:
+  test_size: 0.15
+
+cv:
+  n_splits: 5
+  n_iter: 30
+
+features:
+  # Set from reports/leakage_audit.md. Rating stays; has_director is banned.
+  use_rating: true
+  use_has_director: false
+  title_max_features: 5000
+  description_max_features: 30000
+  min_df: 2
+  ngram_max: 2
+  svd_components: 60
+  one_hot_min_frequency: 10
+
+threshold:
+  high_margin: 0.20
+  medium_margin: 0.08
+  high_precision_target: 0.95
+
+leakage:
+  banned_columns:
+    - duration
+    - duration_minutes
+    - duration_seasons
+    - duration_unit
+    - duration_parse_failed
+    - genre_has_banned_tv_token
+    - listed_in
+    - genres
+  banned_tv_genres:
+    - TV Dramas
+    - TV Comedies
+    - TV Action & Adventure
+    - Kids' TV
+    - British TV Shows
+    - Docuseries
+    - Reality TV
+    - Anime Series
+    - Crime TV Shows
+    - TV Mysteries
+    - Stand-Up Comedy & Talk Shows
+    - Teen TV Shows
+    - Korean TV Shows
+    - Spanish-Language TV Shows
+    - TV Horror
+    - TV Sci-Fi & Fantasy
+    - TV Thrillers
+    - Classic & Cult TV
+    - Romantic TV Shows
+    - Science & Nature TV
+    - International TV Shows
+    - TV Shows
+  tv_vocabulary:
+    - series
+    - season
+    - seasons
+    - episode
+    - episodes
+    - docuseries
+    - film
+    - movie
+    - movies
+    - documentary
+    - documentaries
+    - miniseries
+    - show
+    - shows
+    - television
+    - tv
+    - sequel
+    - anthology
+    - limited
+    - special
+
+api:
+  max_batch: 500
+  rate_limit: "60/minute"

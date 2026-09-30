@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+**/__pycache__
+**/*.pyc
+data/raw
+data/interim
+data/processed
+notebooks
+tests
+reports
+htmlcov
+.env
+*.md
+!README.md
+Dataset.csv.xlsx
