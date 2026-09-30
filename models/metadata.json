@@ -1,0 +1,699 @@
+{
+  "banned_features": [
+    "duration",
+    "duration_minutes",
+    "duration_seasons",
+    "duration_unit",
+    "duration_parse_failed",
+    "genre_has_banned_tv_token",
+    "listed_in",
+    "genres",
+    "has_director",
+    "TV Dramas",
+    "TV Comedies",
+    "TV Action & Adventure",
+    "Kids' TV",
+    "British TV Shows",
+    "Docuseries",
+    "Reality TV",
+    "Anime Series",
+    "Crime TV Shows",
+    "TV Mysteries",
+    "Stand-Up Comedy & Talk Shows",
+    "Teen TV Shows",
+    "Korean TV Shows",
+    "Spanish-Language TV Shows",
+    "TV Horror",
+    "TV Sci-Fi & Fantasy",
+    "TV Thrillers",
+    "Classic & Cult TV",
+    "Romantic TV Shows",
+    "Science & Nature TV",
+    "International TV Shows",
+    "TV Shows"
+  ],
+  "calibration_ensemble": false,
+  "confidence_margins": {
+    "high": 0.2,
+    "medium": 0.08
+  },
+  "cv_scores": {
+    "complement_nb": {
+      "best_params": {
+        "clf__alpha": 1.3311216080736887
+      },
+      "fit_time_mean": 0.37205939292907714,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7657611046191455,
+          "std": 0.00814898563753096
+        },
+        "average_precision": {
+          "mean": 0.6739072551294998,
+          "std": 0.018595349929049765
+        },
+        "balanced_accuracy": {
+          "mean": 0.7274799304980129,
+          "std": 0.008212007972163513
+        },
+        "f1_macro": {
+          "mean": 0.7253188828704497,
+          "std": 0.008709603963265308
+        },
+        "f1_movie": {
+          "mean": 0.8307019111583591,
+          "std": 0.006396738286087977
+        },
+        "f1_tv": {
+          "mean": 0.6199358545825404,
+          "std": 0.011332312174767845
+        },
+        "precision_movie": {
+          "mean": 0.8368708431924368,
+          "std": 0.004712986510075662
+        },
+        "precision_tv": {
+          "mean": 0.6100334062696164,
+          "std": 0.01445843708279896
+        },
+        "recall_movie": {
+          "mean": 0.8246594058201087,
+          "std": 0.00939676839425945
+        },
+        "recall_tv": {
+          "mean": 0.6303004551759167,
+          "std": 0.011038129372911872
+        },
+        "roc_auc": {
+          "mean": 0.8380071719677856,
+          "std": 0.009289030443000801
+        }
+      }
+    },
+    "dummy_stratified": {
+      "best_params": {},
+      "fit_time_mean": 0.30200605392456054,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.5797075481412831,
+          "std": 0.004459593985993709
+        },
+        "average_precision": {
+          "mean": 0.30405739764327333,
+          "std": 0.002371344580926426
+        },
+        "balanced_accuracy": {
+          "mean": 0.5022587172453008,
+          "std": 0.005295355471467066
+        },
+        "f1_macro": {
+          "mean": 0.5022602626353329,
+          "std": 0.005298282767846353
+        },
+        "f1_movie": {
+          "mean": 0.6985981666924619,
+          "std": 0.0031915131007799317
+        },
+        "f1_tv": {
+          "mean": 0.30592235857820366,
+          "std": 0.007409240101723218
+        },
+        "precision_movie": {
+          "mean": 0.6983297847085864,
+          "std": 0.003133327235677474
+        },
+        "precision_tv": {
+          "mean": 0.30619469026548674,
+          "std": 0.007482979878445898
+        },
+        "recall_movie": {
+          "mean": 0.6988668064259783,
+          "std": 0.003254257989564403
+        },
+        "recall_tv": {
+          "mean": 0.3056506280646233,
+          "std": 0.0073374502048778045
+        },
+        "roc_auc": {
+          "mean": 0.5022587172453008,
+          "std": 0.005295355471467066
+        }
+      }
+    },
+    "hist_gradient_boosting": {
+      "best_params": {
+        "clf__learning_rate": 0.05,
+        "clf__max_depth": null,
+        "clf__max_iter": 150,
+        "clf__min_samples_leaf": 10
+      },
+      "fit_time_mean": 8.614214134216308,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8227810685327711,
+          "std": 0.008572576398640754
+        },
+        "average_precision": {
+          "mean": 0.7774325968869967,
+          "std": 0.020078058731698416
+        },
+        "balanced_accuracy": {
+          "mean": 0.7665100948188978,
+          "std": 0.0129730117972106
+        },
+        "f1_macro": {
+          "mean": 0.7789790100286574,
+          "std": 0.01222656530214895
+        },
+        "f1_movie": {
+          "mean": 0.8773612372516368,
+          "std": 0.005414062550264284
+        },
+        "f1_tv": {
+          "mean": 0.6805967828056781,
+          "std": 0.01906536741344349
+        },
+        "precision_movie": {
+          "mean": 0.8475730001420281,
+          "std": 0.00848535266357047
+        },
+        "precision_tv": {
+          "mean": 0.7492208503845225,
+          "std": 0.011619456854588395
+        },
+        "recall_movie": {
+          "mean": 0.909352995514058,
+          "std": 0.0025410877014853646
+        },
+        "recall_tv": {
+          "mean": 0.6236671941237375,
+          "std": 0.024248619803676902
+        },
+        "roc_auc": {
+          "mean": 0.8900584878387997,
+          "std": 0.01085703041513241
+        }
+      }
+    },
+    "linear_svc": {
+      "best_params": {
+        "clf__C": 0.07068974950624607
+      },
+      "fit_time_mean": 0.33348817825317384,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7770034877525711,
+          "std": 0.011774539234017655
+        },
+        "average_precision": {
+          "mean": 0.7336924406761381,
+          "std": 0.024054098042666894
+        },
+        "balanced_accuracy": {
+          "mean": 0.7935887245194078,
+          "std": 0.014654789814423821
+        },
+        "f1_macro": {
+          "mean": 0.7593569592860764,
+          "std": 0.01276573899594268
+        },
+        "f1_movie": {
+          "mean": 0.8244646595915988,
+          "std": 0.0095041847490028
+        },
+        "f1_tv": {
+          "mean": 0.694249258980554,
+          "std": 0.01668364145187036
+        },
+        "precision_movie": {
+          "mean": 0.9133280266082693,
+          "std": 0.012559589463430883
+        },
+        "precision_tv": {
+          "mean": 0.5939163348456955,
+          "std": 0.013931909503409863
+        },
+        "recall_movie": {
+          "mean": 0.7514861872442894,
+          "std": 0.011846700813588323
+        },
+        "recall_tv": {
+          "mean": 0.8356912617945262,
+          "std": 0.026090729846664346
+        },
+        "roc_auc": {
+          "mean": 0.8721502098258481,
+          "std": 0.01032319952458255
+        }
+      }
+    },
+    "logreg_balanced": {
+      "best_params": {
+        "clf__C": 0.6672367170464207
+      },
+      "fit_time_mean": 0.39457225799560547,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7792792574982202,
+          "std": 0.009935986424786887
+        },
+        "average_precision": {
+          "mean": 0.7361105013096625,
+          "std": 0.02468833068967977
+        },
+        "balanced_accuracy": {
+          "mean": 0.7930978070263871,
+          "std": 0.013193315036654977
+        },
+        "f1_macro": {
+          "mean": 0.7608320704498457,
+          "std": 0.010985992541945369
+        },
+        "f1_movie": {
+          "mean": 0.8271882607395185,
+          "std": 0.00795471105192415
+        },
+        "f1_tv": {
+          "mean": 0.6944758801601731,
+          "std": 0.014893421156596151
+        },
+        "precision_movie": {
+          "mean": 0.9104690712194567,
+          "std": 0.012150537714297784
+        },
+        "precision_tv": {
+          "mean": 0.5981486302614589,
+          "std": 0.011882462469203733
+        },
+        "recall_movie": {
+          "mean": 0.758016708428519,
+          "std": 0.011114353205043559
+        },
+        "recall_tv": {
+          "mean": 0.8281789056242553,
+          "std": 0.026254358015845792
+        },
+        "roc_auc": {
+          "mean": 0.8732536560945636,
+          "std": 0.010213451403169139
+        }
+      }
+    },
+    "logreg_plain": {
+      "best_params": {
+        "clf__C": 1.1400863701127328
+      },
+      "fit_time_mean": 0.3672942638397217,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8077901796707454,
+          "std": 0.0039544748772751
+        },
+        "average_precision": {
+          "mean": 0.7393459100041955,
+          "std": 0.024287062905748395
+        },
+        "balanced_accuracy": {
+          "mean": 0.7487667970275748,
+          "std": 0.0058891375828907895
+        },
+        "f1_macro": {
+          "mean": 0.7603596685411749,
+          "std": 0.005464557878432269
+        },
+        "f1_movie": {
+          "mean": 0.8669635561046766,
+          "std": 0.0026693063898224068
+        },
+        "f1_tv": {
+          "mean": 0.653755780977673,
+          "std": 0.008629486953458186
+        },
+        "precision_movie": {
+          "mean": 0.8375030623863233,
+          "std": 0.004027651717657521
+        },
+        "precision_tv": {
+          "mean": 0.7198028033758036,
+          "std": 0.00785753500886941
+        },
+        "recall_movie": {
+          "mean": 0.8985963223756871,
+          "std": 0.004187022932623418
+        },
+        "recall_tv": {
+          "mean": 0.5989372716794623,
+          "std": 0.012459664646561794
+        },
+        "roc_auc": {
+          "mean": 0.8738210757652005,
+          "std": 0.009952029026186629
+        }
+      }
+    },
+    "random_forest": {
+      "best_params": {
+        "clf__max_depth": null,
+        "clf__min_samples_leaf": 8,
+        "clf__n_estimators": 240
+      },
+      "fit_time_mean": 19.790011835098266,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7942710418037815,
+          "std": 0.0038311586191556836
+        },
+        "average_precision": {
+          "mean": 0.721033237046007,
+          "std": 0.013172604393046215
+        },
+        "balanced_accuracy": {
+          "mean": 0.7687746783929656,
+          "std": 0.005548427391699664
+        },
+        "f1_macro": {
+          "mean": 0.7621193513185373,
+          "std": 0.004822172568290241
+        },
+        "f1_movie": {
+          "mean": 0.8495648511944616,
+          "std": 0.0027035147105784387
+        },
+        "f1_tv": {
+          "mean": 0.6746738514426129,
+          "std": 0.007258801746447969
+        },
+        "precision_movie": {
+          "mean": 0.8662931702516751,
+          "std": 0.004232371011113468
+        },
+        "precision_tv": {
+          "mean": 0.6477160268780223,
+          "std": 0.00608907260024337
+        },
+        "recall_movie": {
+          "mean": 0.8334928212021143,
+          "std": 0.004076927715208003
+        },
+        "recall_tv": {
+          "mean": 0.7040565355838168,
+          "std": 0.011446937028140645
+        },
+        "roc_auc": {
+          "mean": 0.8618518684594966,
+          "std": 0.005931556643960067
+        }
+      }
+    }
+  },
+  "data_sha256": "6ab63633c3e11659bb05ad79930b2ae40aa289e021961fc8cbc5f85c5efdbc0d",
+  "description_in_model": false,
+  "explanation_model": "best_model.joblib",
+  "feature_columns": [
+    "title",
+    "primary_country",
+    "rating",
+    "release_year",
+    "year_added",
+    "month_added",
+    "years_to_platform",
+    "n_genres",
+    "n_countries",
+    "title_word_count"
+  ],
+  "feature_names": [
+    "title__truncatedsvd0",
+    "title__truncatedsvd1",
+    "title__truncatedsvd2",
+    "title__truncatedsvd3",
+    "title__truncatedsvd4",
+    "title__truncatedsvd5",
+    "title__truncatedsvd6",
+    "title__truncatedsvd7",
+    "title__truncatedsvd8",
+    "title__truncatedsvd9",
+    "title__truncatedsvd10",
+    "title__truncatedsvd11",
+    "title__truncatedsvd12",
+    "title__truncatedsvd13",
+    "title__truncatedsvd14",
+    "title__truncatedsvd15",
+    "title__truncatedsvd16",
+    "title__truncatedsvd17",
+    "title__truncatedsvd18",
+    "title__truncatedsvd19",
+    "title__truncatedsvd20",
+    "title__truncatedsvd21",
+    "title__truncatedsvd22",
+    "title__truncatedsvd23",
+    "title__truncatedsvd24",
+    "title__truncatedsvd25",
+    "title__truncatedsvd26",
+    "title__truncatedsvd27",
+    "title__truncatedsvd28",
+    "title__truncatedsvd29",
+    "title__truncatedsvd30",
+    "title__truncatedsvd31",
+    "title__truncatedsvd32",
+    "title__truncatedsvd33",
+    "title__truncatedsvd34",
+    "title__truncatedsvd35",
+    "title__truncatedsvd36",
+    "title__truncatedsvd37",
+    "title__truncatedsvd38",
+    "title__truncatedsvd39",
+    "title__truncatedsvd40",
+    "title__truncatedsvd41",
+    "title__truncatedsvd42",
+    "title__truncatedsvd43",
+    "title__truncatedsvd44",
+    "title__truncatedsvd45",
+    "title__truncatedsvd46",
+    "title__truncatedsvd47",
+    "title__truncatedsvd48",
+    "title__truncatedsvd49",
+    "title__truncatedsvd50",
+    "title__truncatedsvd51",
+    "title__truncatedsvd52",
+    "title__truncatedsvd53",
+    "title__truncatedsvd54",
+    "title__truncatedsvd55",
+    "title__truncatedsvd56",
+    "title__truncatedsvd57",
+    "title__truncatedsvd58",
+    "title__truncatedsvd59",
+    "categorical__primary_country_Argentina",
+    "categorical__primary_country_Australia",
+    "categorical__primary_country_Belgium",
+    "categorical__primary_country_Brazil",
+    "categorical__primary_country_Canada",
+    "categorical__primary_country_Chile",
+    "categorical__primary_country_China",
+    "categorical__primary_country_Colombia",
+    "categorical__primary_country_Denmark",
+    "categorical__primary_country_Egypt",
+    "categorical__primary_country_France",
+    "categorical__primary_country_Germany",
+    "categorical__primary_country_Hong Kong",
+    "categorical__primary_country_India",
+    "categorical__primary_country_Indonesia",
+    "categorical__primary_country_Ireland",
+    "categorical__primary_country_Israel",
+    "categorical__primary_country_Italy",
+    "categorical__primary_country_Japan",
+    "categorical__primary_country_Lebanon",
+    "categorical__primary_country_Malaysia",
+    "categorical__primary_country_Mexico",
+    "categorical__primary_country_Netherlands",
+    "categorical__primary_country_New Zealand",
+    "categorical__primary_country_Nigeria",
+    "categorical__primary_country_Norway",
+    "categorical__primary_country_Pakistan",
+    "categorical__primary_country_Philippines",
+    "categorical__primary_country_Poland",
+    "categorical__primary_country_Russia",
+    "categorical__primary_country_Saudi Arabia",
+    "categorical__primary_country_Singapore",
+    "categorical__primary_country_South Africa",
+    "categorical__primary_country_South Korea",
+    "categorical__primary_country_Spain",
+    "categorical__primary_country_Sweden",
+    "categorical__primary_country_Taiwan",
+    "categorical__primary_country_Thailand",
+    "categorical__primary_country_Turkey",
+    "categorical__primary_country_United Arab Emirates",
+    "categorical__primary_country_United Kingdom",
+    "categorical__primary_country_United States",
+    "categorical__primary_country_nan",
+    "categorical__primary_country_infrequent_sklearn",
+    "categorical__rating_G",
+    "categorical__rating_NR",
+    "categorical__rating_PG",
+    "categorical__rating_PG-13",
+    "categorical__rating_R",
+    "categorical__rating_TV-14",
+    "categorical__rating_TV-G",
+    "categorical__rating_TV-MA",
+    "categorical__rating_TV-PG",
+    "categorical__rating_TV-Y",
+    "categorical__rating_TV-Y7",
+    "categorical__rating_infrequent_sklearn",
+    "numeric__release_year",
+    "numeric__year_added",
+    "numeric__month_added",
+    "numeric__years_to_platform",
+    "numeric__n_genres",
+    "numeric__n_countries",
+    "numeric__title_word_count"
+  ],
+  "git_sha": "5fd19f28c972a26bbc9bd404cf3c4b619d03b072",
+  "high_precision_threshold": null,
+  "label_map": {
+    "Movie": 0,
+    "TV Show": 1
+  },
+  "leakage_audit_md": "# Leakage audit\n\nGenerated by `scripts/leakage_audit.py` on the full cleaned catalogue.\nNormalised mutual information uses `normalized_mutual_info_score` (arithmetic mean).\nCramer's V is computed on the same discrete version of the feature (quantile bins for numerics).\nLogistic accuracy and ROC-AUC are **5-fold out-of-fold** scores of a one-column model.\nThe decision-stump accuracy is in-sample, because a depth-1 tree is the association diagnostic.\nA single feature with ROC-AUC above about 0.97 is treated as a leak.\n\n## Scores\n\n| feature | kind | NMI | Cramer's V | stump accuracy | logistic accuracy | logistic ROC-AUC | note |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| duration (raw string) | categorical | 0.2547 | 1.0000 | 0.8834 | 0.9974 | 1.0000 | Perfect separator candidate. |\n| duration_unit | categorical | 1.0000 | 0.9997 | 1.0000 | 1.0000 | 1.0000 | min versus season. |\n| duration_minutes | numeric | 0.4337 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | Null pattern is the label. |\n| duration_seasons | numeric | 0.8763 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | Null pattern is the label. |\n| duration_minutes_is_null | categorical | 1.0000 | 0.9997 | 1.0000 | 1.0000 | 1.0000 | Missingness restates the label. |\n| genre_has_banned_tv_token | categorical | 1.0000 | 0.9997 | 1.0000 | 1.0000 | 1.0000 | Genre name contains a banned TV-format token. |\n| rating | categorical | 0.0683 | 0.3447 | 0.6969 | 0.7082 | 0.6387 | Partial leak. Quarantined pending this table. |\n| has_director | categorical | 0.6927 | 0.8853 | 0.9520 | 0.9520 | 0.8960 | Films list a director; series often do not. |\n| primary_country | categorical | 0.0603 | 0.4403 | 0.6969 | 0.7561 | 0.6977 | Allowed categorical, audited anyway. |\n| country_is_missing | categorical | 0.0100 | 0.0787 | 0.6969 | 0.6969 | 0.5105 | Missingness of country. |\n| n_genres | numeric | 0.0068 | 0.0938 | 0.6969 | 0.6969 | 0.5417 | Count only. Names are banned. |\n| n_countries | numeric | 0.0000 | 0.0000 | 0.6969 | 0.6969 | 0.5105 | Allowed numeric. |\n| release_year | numeric | 0.0216 | 0.2425 | 0.6969 | 0.6969 | 0.3522 | Allowed numeric. |\n| year_added | numeric | 0.0019 | 0.0638 | 0.6969 | 0.6969 | 0.4911 | Allowed numeric. |\n| month_added | numeric | 0.0035 | 0.0930 | 0.6969 | 0.6969 | 0.5390 | Allowed numeric. |\n| years_to_platform | numeric | 0.0258 | 0.2401 | 0.6969 | 0.6969 | 0.6154 | year_added - release_year. |\n| title_word_count | numeric | 0.0032 | 0.0841 | 0.6969 | 0.6969 | 0.5261 | Allowed numeric. |\n| description_word_count | numeric | 0.0000 | 0.0000 | 0.6969 | 0.6969 | 0.4998 | Zero when the source has no synopsis. |\n| n_cast | numeric | 0.0000 | 0.0000 | 0.6969 | 0.6969 | 0.4998 | Zero when the source has no cast column. |\n| title_has_format_word | categorical | 0.0003 | 0.0141 | 0.6969 | 0.6969 | 0.5007 | Soft cue inside the title. Allowed, ablated in the no-TV-vocabulary track. |\n\n## Crosstabs\n\n### duration_unit\n| value | Movie | TV Show | total |\n| --- | --- | --- | --- |\n| min | 6126 | 0 | 6126 |\n| season | 0 | 2664 | 2664 |\n\n### rating\n| value | Movie | TV Show | total |\n| --- | --- | --- | --- |\n| TV-MA | 2062 | 1143 | 3205 |\n| TV-14 | 1427 | 730 | 2157 |\n| TV-PG | 540 | 321 | 861 |\n| R | 797 | 2 | 799 |\n| PG-13 | 490 | 0 | 490 |\n| TV-Y7 | 139 | 194 | 333 |\n| TV-Y | 131 | 175 | 306 |\n| PG | 287 | 0 | 287 |\n\n### has_director (1 = a director is listed)\n| value | Movie | TV Show | total |\n| --- | --- | --- | --- |\n| 1.0 | 5953 | 249 | 6202 |\n| 0.0 | 173 | 2415 | 2588 |\n\n### genre_has_banned_tv_token\n| value | Movie | TV Show | total |\n| --- | --- | --- | --- |\n| 0.0 | 6126 | 0 | 6126 |\n| 1.0 | 0 | 2664 | 2664 |\n\n### n_genres\n| value | Movie | TV Show | total |\n| --- | --- | --- | --- |\n| (0.999, 2.0] | 3717 | 1347 | 5064 |\n| (2.0, 3.0] | 2409 | 1317 | 3726 |\n\n## Verdicts\n\n### Banned\n\n- `duration` raw string, logistic ROC-AUC 1.0000. `90 min` is a movie and `2 Seasons` is a TV show. The string is the label.\n- `duration_unit`, logistic ROC-AUC 1.0000. This is the same fact, parsed. The leaky baseline is the only model allowed to use it, and that model is not served.\n- `duration_minutes` (AUC 1.0000) and `duration_seasons` (AUC 1.0000). Which of the two is non-null is the label. The numeric audit keeps a missingness indicator so imputation cannot hide that.\n- `duration_minutes_is_null`, AUC 1.0000. A missingness flag that restates the unit.\n- Banned TV-format genre tokens, flag AUC 1.0000. Names such as `TV Dramas`, `Docuseries`, and `International TV Shows` are catalogue labels, not content. The honest model receives `n_genres` only.\n\n### Quarantine decisions\n\n- `rating` logistic ROC-AUC is 0.6387: **ALLOWED after quarantine**. `TV-Y`, `TV-Y7`, `TV-Y7-FV`, `TV-G`, `NR`, and `UR` skew toward TV, while `TV-MA` and `TV-14` appear on both classes. The 0.97 single-feature line is the ban threshold.\n- `has_director` logistic ROC-AUC is 0.8960. BANNED. Single-feature accuracy is 0.9520 and Cramer's V is 0.8853. ROC-AUC can sit under the 0.97 perfect-separator line because the feature is binary and the classes are unbalanced, but the decision rule is still a catalogue-missingness detector: series usually have no director credit and films usually do. `features.use_has_director` is false. This extract uses the placeholder `Not Given` for most series and almost no films. Keeping that placeholder as a token would be the second-order leak the spec warns about, so cleaning maps it to missing and the boolean is then judged on its own AUC.\n\n### Allowed, with the ablation\n\n- Title text, including format words. The boolean `title_has_format_word` has AUC 0.5007. The no-TV-vocabulary track strips a fixed 20-word stoplist before TF-IDF so the reader can see how much of the score was the word `series` or `movie`. This extract has no synopsis column, so that ablation runs on the title.\n- `n_genres` AUC 0.5417. The count is kept when it is far from a separator. The names are not used either way.\n- `primary_country` AUC 0.6977, `release_year` AUC 0.3522, `years_to_platform` AUC 0.6154.\n- `description_word_count` AUC 0.4998 and `n_cast` AUC 0.4998. On this extract both columns were absent from the Excel file, so the features are constant and are not passed to the honest model. A file that actually contains them will pick them up.\n\n### What the honest model is allowed to see\n\n`title` (TF-IDF), `primary_country`, `rating`, `release_year`, `year_added`, `month_added`, `years_to_platform`, `n_genres`, `n_countries`, `title_word_count`. Nothing derived from `duration`. No genre name.\n",
+  "library_versions": {
+    "fastapi": "0.115.12",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "model_name": "hist_gradient_boosting",
+  "model_version": "1.0.0",
+  "oof_brier_calibrated": 0.12225927910541962,
+  "oof_brier_raw": 0.1219237348878556,
+  "positive_class": "TV Show",
+  "row_count": 8790,
+  "served_model": "calibrator.joblib",
+  "spec": {
+    "categorical": [
+      "primary_country",
+      "rating"
+    ],
+    "extra_categorical": [],
+    "numeric": [
+      "release_year",
+      "year_added",
+      "month_added",
+      "years_to_platform",
+      "n_genres",
+      "n_countries",
+      "title_word_count"
+    ],
+    "strip_tv_vocabulary": false,
+    "text": [
+      "title"
+    ]
+  },
+  "synthesized_columns": [
+    "cast",
+    "description"
+  ],
+  "test_rows": 1319,
+  "test_scores": {
+    "brier_after_calibration": 0.12570829129530406,
+    "brier_before_calibration": 0.12568389731848198,
+    "confusion_matrix": {
+      "normalised": [
+        [
+          0.8662,
+          0.1338
+        ],
+        [
+          0.3175,
+          0.6825
+        ]
+      ],
+      "raw": [
+        [
+          796,
+          123
+        ],
+        [
+          127,
+          273
+        ]
+      ]
+    },
+    "honest_threshold_0_5": {
+      "accuracy": 0.8119787717968158,
+      "average_precision": 0.753405044586152,
+      "balanced_accuracy": 0.766240478781284,
+      "brier": 0.12570829129530406,
+      "cohen_kappa": 0.5447875846099037,
+      "f1_macro": 0.7722315062388592,
+      "f1_movie": 0.8673796791443851,
+      "f1_tv": 0.6770833333333334,
+      "mcc": 0.5457297942220195,
+      "precision_movie": 0.8527865404837014,
+      "precision_tv": 0.7065217391304348,
+      "recall_movie": 0.8824809575625681,
+      "recall_tv": 0.65,
+      "roc_auc": 0.8846028291621327
+    },
+    "honest_tuned_threshold": {
+      "accuracy": 0.8104624715693708,
+      "average_precision": 0.753405044586152,
+      "balanced_accuracy": 0.7743294341675735,
+      "brier": 0.12570829129530406,
+      "cohen_kappa": 0.5502125152088869,
+      "f1_macro": 0.7751038034908528,
+      "f1_movie": 0.8642779587404995,
+      "f1_tv": 0.6859296482412061,
+      "mcc": 0.55022676380376,
+      "precision_movie": 0.8624052004333694,
+      "precision_tv": 0.6893939393939394,
+      "recall_movie": 0.8661588683351469,
+      "recall_tv": 0.6825,
+      "roc_auc": 0.8846028291621327
+    },
+    "latency": {
+      "batch_p50_ms": 101.83015011716634,
+      "batch_p95_ms": 116.64632497122511,
+      "batch_rows": 1000.0,
+      "single_p50_ms": 27.68960001412779,
+      "single_p95_ms": 58.892889821436206
+    },
+    "leaky": {
+      "accuracy": 1.0,
+      "average_precision": 1.0,
+      "balanced_accuracy": 1.0,
+      "brier": 6.160715327330659e-08,
+      "cohen_kappa": 1.0,
+      "f1_macro": 1.0,
+      "f1_movie": 1.0,
+      "f1_tv": 1.0,
+      "mcc": 1.0,
+      "precision_movie": 1.0,
+      "precision_tv": 1.0,
+      "recall_movie": 1.0,
+      "recall_tv": 1.0,
+      "roc_auc": 1.0
+    },
+    "no_tv_vocabulary": {
+      "accuracy": 0.8127369219105383,
+      "average_precision": 0.773448161714603,
+      "balanced_accuracy": 0.747724428726877,
+      "brier": 0.12475034409265663,
+      "cohen_kappa": 0.5278683915733275,
+      "f1_macro": 0.7626323746379848,
+      "f1_movie": 0.8716883116883117,
+      "f1_tv": 0.6535764375876578,
+      "mcc": 0.5353224087463827,
+      "precision_movie": 0.8339960238568589,
+      "precision_tv": 0.744408945686901,
+      "recall_movie": 0.9129488574537541,
+      "recall_tv": 0.5825,
+      "roc_auc": 0.8867423830250272
+    }
+  },
+  "threshold": 0.37,
+  "threshold_f1_macro": 0.7944550831200705,
+  "threshold_rule": "Maximise F1-macro on out-of-fold isotonic-calibrated P(TV Show). The 15% test set is not used.",
+  "train_rows": 7471,
+  "trained_at": "2026-09-30T15:17:09+00:00",
+  "use_has_director": false,
+  "use_rating": true,
+  "winner_cv_roc_auc": 0.8900584878387997
+}
