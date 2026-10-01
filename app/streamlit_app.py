@@ -189,6 +189,37 @@ def _predict_tab(meta: dict | None) -> None:
             f"Model {result['model_version']}. Took {result['took_ms']:.1f} ms."
         )
         _contribution_chart(result["top_contributing_features"])
+        _show_media(str(payload["title"]), result["prediction"])
+
+
+def _show_media(title: str, content_type: str) -> None:
+    """Poster and synopsis from Wikipedia, shown beside the prediction."""
+    try:
+        with st.spinner("Looking up a poster and synopsis..."):
+            response = httpx.get(
+                f"{API_BASE_URL}/media",
+                params={"title": title, "content_type": content_type},
+                timeout=20,
+            )
+    except httpx.HTTPError:
+        st.caption("The poster lookup could not reach the API.")
+        return
+    if response.status_code != 200:
+        st.caption("No poster was returned for this title.")
+        return
+    media = response.json()
+    if not media.get("found"):
+        st.caption("No Wikipedia poster or synopsis was found for this title.")
+        return
+    picture, text = st.columns([1, 2])
+    if media.get("image_url"):
+        picture.image(media["image_url"], use_container_width=True)
+    text.markdown(f"**{media.get('title') or title}**")
+    text.write(media.get("description") or "")
+    source = media.get("page_url") or "Wikipedia"
+    text.caption(
+        f"Poster and synopsis from Wikipedia ({source}). This text is not a model feature."
+    )
 
 
 def _batch_tab() -> None:
