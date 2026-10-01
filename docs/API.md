@@ -138,6 +138,16 @@ row,error,prediction,probability_movie,probability_tv_show,confidence,threshold_
 0,,Movie,0.9983388704318937,0.0016611295681063123,high,0.37,1.0.0,[],39.769
 ```
 
+## GET /media
+
+Poster and synopsis for display. The text is not a model feature. Source is the public Wikipedia API.
+
+```bash
+curl -s "http://127.0.0.1:8000/media?title=Inception&content_type=Movie"
+```
+
+A blank `title` returns **422**. When Wikipedia has no usable page the status is still **200** and `found` is `false`.
+
 ## GET /metrics
 
 ```bash

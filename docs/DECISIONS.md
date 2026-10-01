@@ -26,3 +26,4 @@ Each line is a choice that was not obvious from the spec, and why it was made.
 - `date_added` is optional on the API, beyond the spec's request body, because `year_added`, `month_added`, and `years_to_platform` cannot be computed without it. Omitted dates are imputed inside the pipeline and the missingness indicator turns on.
 - The API returns 422 when a caller sends `duration`, including a CSV that contains that column. A batch item that contains it fails that item only.
 - Confidence is the distance of calibrated P(TV Show) from the tuned threshold: high at or above 0.20, medium at or above 0.08, otherwise low.
+- Posters and synopses on the Predict tab come from the public Wikipedia API. The supplied catalogue has neither column. The lookup is display-only and is not a training feature. iTunes Search returned no hits from this network, so it is not the source.
