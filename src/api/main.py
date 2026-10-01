@@ -8,10 +8,10 @@ import uuid
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 import pandas as pd
-from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from fastapi import FastAPI, File, HTTPException, Query, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, Response
 from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
@@ -27,6 +27,7 @@ from src.api.schemas import (
     BatchItemResult,
     BatchResponse,
     FeatureContribution,
+    MediaResponse,
     PredictRequest,
     PredictResponse,
 )
@@ -34,6 +35,7 @@ from src.config import get_config
 from src.evaluation.explain import linear_contributions
 from src.features.inference import build_inference_frame
 from src.logging_conf import configure_logging, get_logger
+from src.media.wikipedia import lookup_media
 from src.models.registry import Runtime, load_runtime
 
 logger = get_logger(__name__)
@@ -307,6 +309,17 @@ def create_app(model_directory: Path | None = None) -> FastAPI:
         reject_duration(payload)
         runtime = _require_runtime(request)
         return _score(runtime, _validate(payload))
+
+    @app.get("/media", response_model=MediaResponse, tags=["display"])
+    @limiter.limit(_rate_limit())
+    async def media(
+        request: Request,
+        title: str = Query(min_length=1, max_length=300),
+        content_type: Literal["Movie", "TV Show"] = Query(default="Movie"),
+    ) -> MediaResponse:
+        """Poster and synopsis from Wikipedia. This text is not a model feature."""
+        del request
+        return MediaResponse.model_validate(lookup_media(title, content_type))
 
     @app.get("/metrics", tags=["ops"])
     async def metrics() -> Response:

@@ -76,3 +76,16 @@ class BatchResponse(BaseModel):
     """Batch predictions in input order."""
 
     results: list[BatchItemResult]
+
+
+class MediaResponse(BaseModel):
+    """Wikipedia poster and synopsis for display. Never a model input."""
+
+    found: bool
+    query: str
+    title: str
+    description: str | None = None
+    image_url: str | None = None
+    page_url: str | None = None
+    source: str
+    content_type: Literal["Movie", "TV Show"] | None = None
